@@ -1,0 +1,103 @@
+[{
+    "Color_Timing":{
+        "pretty_title":"Bloom Season",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/seasonspring.png",
+            "img/icons/seasonsummer.png",
+            "img/icons/seasonfall.png",
+            "img/icons/seasonwinter.png"]
+},
+    "class":{
+        "pretty_title":"Category",
+        "search_use":["search","test"],
+        "icons":[
+			"img/icons/plantedible.png",
+ 			"img/icons/plantflower.png",
+ 			"img/icons/plantother.png",
+ 			"img/icons/plantshrub.png",
+ 			"img/icons/planttree.png"]
+},
+	"Native":{
+        "pretty_title":"Native",
+        "search_use":["search"],
+        "icons":[
+			"img/icons/native1.png",
+			"img/icons/native2.png",
+			"img/icons/native3.png",
+			"img/icons/native4.png",
+	    	"img/icons/nativenot.png"]
+},
+	"Soil_Conditions":{
+        "pretty_title":"Water",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/waterempty.png",
+			"img/icons/waterhalf.png",
+			"img/icons/waterfull.png"]
+},
+	"Sun":{
+        "pretty_title":"Sunlight",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/sunempty.png",
+			"img/icons/sunhalf.png",
+			"img/icons/sunfull.png"]
+},
+	"growth_size__":{
+        "pretty_title":"Growth Size",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/grow1.png",
+			"img/icons/grow2.png",
+			"img/icons/grow3.png"]
+},
+	"overall_raiting__":{
+        "pretty_title":"Overall Raiting",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/star1.png",
+			"img/icons/star2.png",
+			"img/icons/star3.png"]
+},
+	"maintenance__":{
+        "pretty_title":"maintenance",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/maint1.png",
+			"img/icons/maint2.png",
+			"img/icons/maint3.png"]
+},
+	"experience__":{
+        "pretty_title":"Planting Experience",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/star1.png",
+			"img/icons/star2.png",
+			"img/icons/star3.png"]
+},
+	"wildlife__":{
+        "pretty_title":"Wild Life",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/wildbee.png",
+		    "img/icons/wildbird.png",
+		    "img/icons/wildbutterfly.png",
+			"img/icons/wildlife.png"]
+},
+	 "Endorsed_By":{
+        "pretty_title":"Supported by",
+        "search_use":["search", "user"],
+        "icons":[
+    		"img/icons/orgaudubon.png",
+ 			"img/icons/orgcockrell.png",
+			"img/icons/orgforestservice.png",
+ 			"img/icons/orggardenclub.png",
+  			"img/icons/orghaanc.png",
+  			"img/icons/orgkatyprairie.png",
+			"img/icons/orgmercer.png",
+ 			"img/icons/orgnps.png",
+ 			"img/icons/orgparkswildlife.png",
+			"img/icons/orgurbanharvest.png"]
+}
+}]

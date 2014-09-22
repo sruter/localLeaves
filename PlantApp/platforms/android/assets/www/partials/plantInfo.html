@@ -1,0 +1,29 @@
+<div class= "wrapper">
+	<div class="PlantPicCarousel">
+
+		<carousel interval="myInterval">
+		  <slide ng-repeat="slide in slides" active="slide.active">
+			<img ng-src="{{slide.image}}" style="margin:auto;">
+		  </slide>
+		</carousel>
+	</div>
+
+		<br>
+
+	<div id= "traits" >
+		<slide ng-repeat="trait in traits" active="trait.active">
+			<div><img id="traitImage" ng-src="{{trait.image}}"></div>
+		</slide>
+	</div>
+
+	<div id="scrollingPlantText">
+		<h2><p id= "commonName"></p></h2>
+		<h3><p id= "scientificName"></p></h3>
+
+		<p id= "plantInfo"></p>
+	</div>
+
+	<div>
+		<img id= "favoriteStar" ng-src= "img/review.png">
+	</div>
+</div>

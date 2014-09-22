@@ -1,0 +1,40 @@
+<div class="carouselSearch">
+<!--    <div  hm-swipe-left="moveLeft()" hm-swipe-right="moveRight()">-->
+    
+    <div class="carouselWrap" ng-swipe-left="moveLeft()" ng-swipe-right="moveRight()">
+        
+<!--	need encompassing div to have overflow=hidden, etc., depending on what you want to happen
+     <select
+    ng-model="myOption"
+    ng-options="value.id as value.label group by value.group for value in myOptions">
+    <option>--</option>
+</select>-->
+<!--
+    <div class="fanSpan" ng-repeat="slide in slides">
+        <img style="{{moveStyles($index)}}" hm-swipe-left="moveLeft()" hm-swipe-right="moveRight()" ng-src="{{slides[$index].image}}"/>
+    </div>
+<br>
+        <br>
+        <br>-->
+            <button id="moveLeft" ng-click="moveLeft()">Left</button>
+            <button id="moveRight" ng-click="moveRight()">Right</button>
+
+<!--        <div class="svg-include" ng-include="'partials/viewWindow.svg'"></div>-->
+        <div class="img-row-include" ng-include="'partials/imageRow.svg'"></div>
+
+<!--        <div class="svg-include" ng-include="'partials/viewWindow.svg'"></div>-->
+        
+<!--
+	   <div class="left-carousel"><img ng-click="moveLeft()" class="showSlide" ng-src="{{slides[0].image}}" style="margin:auto;"></div>
+		<div class="middle-carousel"><img class="showSlide" ng-src="{{slides[1].image}}" style="margin:auto;"></div> 
+		<div class="right-carousel"><img class="showSlide" ng-src="{{slides[2].image}}" style="margin:auto;"></div>
+-->
+
+        </div>
+    
+  
+<!--    <div class="svg-include" ng-include="'partials/test.svg'"></div>-->
+          
+</div>
+
+		  

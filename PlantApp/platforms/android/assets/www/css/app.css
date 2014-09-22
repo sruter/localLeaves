@@ -1,0 +1,335 @@
+/* app css stylesheet */
+body {
+	padding: 0px;
+    background-color: #F5F0EA;
+	screenOrientation.autoRotate = 'Disabled';
+}
+.wrapper{
+	width: 100%;
+	padding-bottom: 25%;
+}
+h1{
+	color: beige;
+	font-family: roboto bold;
+	font-size: 30px;
+}
+h2{
+	color: #C7DC74;
+	font-family: roboto medium;
+	font-size: 30px;
+}
+h3{
+	color: #C7DC74;
+	font-family: roboto medium;
+	font-style: italic;
+	font-size: 26px;
+}
+h4{
+	color: #F5F0EA;
+	font-family: roboto bold;
+	font-size: 40px;
+}
+h5{
+	color: #F5F0EA;
+	font-family: roboto;
+	font-size: 32px;
+}
+h6{
+	color: #F5F0EA;
+	font-family: roboto bold;
+	font-size: 20px;
+}
+
+/******* landing page *******/
+#landingPage{
+	position:relative;
+	top:0px;
+	left: 0px;
+}
+#background{	
+	position: fixed;
+	top: 0px;
+	left:0px;
+	z-index: -5;
+}
+#bg-img {
+	width:100%;
+}
+#logo{
+	top:7%;
+	left:10%;
+	width:80%;
+	position: absolute;
+	z-index: 10;
+}
+#UHLogo{
+	position: fixed;
+	bottom:0%;
+	left: 40%;
+}
+
+/******  Top Bar ********/
+#topMenu{
+	position: fixed;
+	background-color: #68811e;
+	/*background-image: url('../img/bg.png');   same as landing page*/
+	padding-bottom:50px;
+	top:0px;
+	left:0px;
+	width:100%;
+	height: 60px;
+	z-index: 30; 
+	background-repeat: no-repeat;
+}
+#backButton{
+	position:absolute;
+	top:15px;
+	left: 10px;
+	width: 25px;
+	height: 30px;
+}
+#searchIcon{
+	position:absolute;
+	right: 0px;
+	width: 65px;
+}
+#searchBarContainer{
+	position: absolute;
+	left: 0;
+	width: 600px;
+	height: 50px;
+	border-style: solid;
+	border-color: red;
+}
+#searchBar{
+	position: absolute;
+	background-color: #d8eb8c;
+	width:65%;
+	right: 50px;
+	top:15px;
+	height: 30px;
+	border: 2px solid;
+	border-color: #68811e;
+    border-radius: 10px;
+	z-index: 30;
+}
+#searchButton{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 50px;
+	width: 50px;
+	border-style: hidden;
+	background-color: transparent;
+	z-index: 290;
+}
+
+/****** bottom menu ****/
+.menuBar{
+	position: fixed;
+	display: block;
+	width:275px;
+	height: 100px;
+	margin-left: 10%;
+	bottom: 0px;
+    z-index:20;
+}
+#myGardenIcon{
+	position: absolute;
+	float:left;
+	bottom: 0px;
+	left: 30px;
+	width: 55px;
+    z-index:25;
+}
+#logoNavBackground{
+	position: fixed;
+	width: 300px;
+	bottom: 0px;
+    z-index: 20;
+}
+#logonav{
+	position: absolute;
+	float:left;
+	bottom: 3px;
+	left: 115px;
+	width: 60px;
+    z-index:25;
+}
+#addLink{
+	position: absolute;
+	float:left;
+	bottom: 10px;
+	left: 110px;
+	width: 65px;
+    z-index:25;
+}
+#intSearch{
+	position: absolute;
+	float:left;
+	bottom: 0px;
+	left: 210px;
+	width: 55px;
+    z-index:25;
+}
+/******** Search Results ******/
+#resultsImg{
+	padding-top: 60px;
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+	overflow-y: hidden;
+}
+#carouselCaption{
+	margin: 0px; 
+    padding: 0px; 
+    background: none;
+    top: 30px;
+    left: 250px;        
+    position: absolute;
+	text-outline: 2px #a4af3a;
+}
+/******* Plant Info Page *****/
+#favoriteStar{
+	position:absolute;
+	top:65px;
+	left: 15px;
+	width: 40px;
+	z-index: 10;
+}
+.PlantPicCarousel{
+	position: static;
+	width: 100%;
+	height: auto;
+	max-width: 640px;
+	max-height: 350px;
+	z-index: 1;
+}
+#traits{
+	position: absolute;
+	background-color: #F5F0EA;
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	padding-top: 10px;
+	z-index: 20;
+}
+#traitImage{
+	float: left;
+	position: relative;
+	width: 60px;
+	height:50px;
+	padding-left:20px;
+	padding-bottom: 10px;
+	top:0px;
+}
+#scrollingPlantText{
+	position: relative;
+	background-color: #FFF;
+	height: 250px;
+	padding-left: 20px;
+	width: 100%;
+	overflow-y: scroll;
+	
+	/* possiblyfor ios:*/
+	-webkit-overflow-scrolling: touch;
+}
+#plantInfo{
+	color: #9F8D6F;
+	font-family: roboto;
+	font-size: 18px;
+	background-color: #FFF;
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+
+/*********** Home Page **********/
+#userImgContent{
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	max-height: 350px;
+	display: block;
+	background-color: #F5F0EA;
+	background-size: contain;
+	z-index: 1;
+}
+#favImage{
+	position: relative;
+	width:auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 350px;
+	background-color: #F5F0EA;
+	z-index: 1;
+}
+#userLabel{
+	position: absolute;
+	left:30%;
+	bottom: 0%;
+	z-index: 3;
+}
+#userTraits{
+	position: relative;
+	background-color: #F5F0EA;
+	background-size: contain;
+	display: inline-block;
+	width: 100%;
+	height:auto;
+	padding-top: 5px;
+	max-height: 75px;
+	z-index: 9;
+}
+#scrollPlants{
+	width:100%;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+#plantImages{
+	float: left;
+	width: 140px;
+	height: 115px;
+	padding-bottom: 15px;
+	padding-left:20px;
+}
+#pictures{
+	position: relative;
+	background-color: #F5F0EA;
+	display: inline-block;
+	width: 250%;
+	height: auto;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+/*********** More/about Page ********/
+#morePage{
+	position: absolute;
+	width: 100%;
+	top: 50px;
+	padding-left:20px;
+	padding-bottom: 75px;
+	overflow-x: hidden;
+	
+}
+#statement{
+	height: 150px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color: #bc9d73;
+}
+li{
+	display: block;
+	font-family: roboto;
+	text-decoration: underline;
+}
+a:link{
+	color:#bc9d73;
+}

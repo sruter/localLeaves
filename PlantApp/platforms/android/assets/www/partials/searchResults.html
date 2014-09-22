@@ -1,0 +1,25 @@
+<div id="resultsImg">
+	<style>
+		.carousel-indicators{
+		display:none;}
+		.carousel-inner{
+			width: 250%;
+			height: 200%;
+			margin: -50px 0 0 -250px;
+		}
+		.carousel-control{
+			position: fixed;
+			top:0px;	
+		}
+	</style>
+
+	<carousel interval="myInterval">
+	  <slide ng-repeat="slide in slides" active="slide.active">
+		<img  ng-src="{{slide.image}}" style="margin:auto;">
+		<div id="carouselCaption">
+			<h1 id= "commonName"><p>{{slide.comName}}</p></h1>
+			<h3 id="scientificName"><p>{{slide.sciName}}</p></h3>
+		</div>
+	  </slide>
+	</carousel>
+</div>

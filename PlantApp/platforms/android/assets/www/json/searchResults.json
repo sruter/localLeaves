@@ -1,0 +1,22 @@
+[
+  {
+	"plantCommonName":	"Common Name 1",
+ 	"plantScientificName": "Scientific Name 1",
+    "image": "http://www.housuggest.org/images/PlantApp/1.png"
+  },
+  {
+    "plantCommonName":	"Common Name 2",
+ 	"plantScientificName": "Scientific Name 2",
+	"image": "http://www.housuggest.org/images/PlantApp/2.png"
+  },
+  {
+	"plantCommonName":	"Common Name 3",
+ 	"plantScientificName": "Scientific Name 3",
+    "image": "http://www.housuggest.org/images/PlantApp/3.png"
+  },
+  {
+	"plantCommonName":	"Common Name 4",
+ 	"plantScientificName": "Scientific Name 4",
+    "image": "http://www.housuggest.org/images/PlantApp/2.png"
+  }
+]

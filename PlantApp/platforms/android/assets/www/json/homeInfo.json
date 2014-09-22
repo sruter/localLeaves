@@ -1,0 +1,25 @@
+{
+	"favoritePlant":"img/plants/Althea and lamp.JPG",
+	
+	"userTraits":[
+		"img/icons/iconseasonsummer.png",
+		"img/icons/iconplantother.png",
+		"img/icons/iconnativenot.png",
+		"img/icons/iconwaterempty.png",
+		"img/icons/iconsunhalf.png"		
+	],
+	"gardenImages":[
+	  "img/plants/Althea and lamp.JPG" ,
+	  "img/plants/Amarylis johnsonii 1.JPG" ,
+	  "img/plants/Amaryllis Red Lion 1.JPG" ,
+	  "img/plants/Althea and lamp.JPG" ,
+	  "img/plants/Amarylis johnsonii 1.JPG" ,
+	  "img/plants/Andy Dandy, Dutch Iris & rose.jpg"
+	],
+	"moreImages":[
+	  "img/plants/Althea and lamp.JPG" ,
+	  "img/plants/Amarylis johnsonii 1.JPG" ,
+	  "img/plants/Amaryllis Red Lion 1.JPG" ,
+	  "img/plants/Andy Dandy, Dutch Iris & rose.jpg"
+	]
+}

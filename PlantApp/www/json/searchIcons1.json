@@ -1,0 +1,62 @@
+[{
+    "Color_Timing":{
+        "pretty_title":"Bloom Season",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/seasonspring.png",
+            "img/icons/seasonsummer.png",
+            "img/icons/seasonfall.png",
+            "img/icons/seasonwinter.png"]
+},
+	"Native":{
+        "pretty_title":"Native",
+        "search_use":["search"],
+        "icons":[
+			"img/icons/native1.png",
+			"img/icons/native2.png",
+			"img/icons/native3.png",
+			"img/icons/native4.png",
+	    	"img/icons/nativenot.png"]
+},
+	"Soil_Conditions":{
+        "pretty_title":"Water",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/waterempty.png",
+			"img/icons/waterhalf.png",
+			"img/icons/waterfull.png"]
+},
+	"Sun":{
+        "pretty_title":"Sunlight",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/sunempty.png",
+			"img/icons/sunhalf.png",
+			"img/icons/sunfull.png"]
+},
+	"growth_size__":{
+        "pretty_title":"Growth Size",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/grow1.png",
+			"img/icons/grow2.png",
+			"img/icons/grow3.png"]
+},
+	"maintenance__":{
+        "pretty_title":"maintenance",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/maint1.png",
+			"img/icons/maint2.png",
+			"img/icons/maint3.png"]
+},
+	"wildlife__":{
+        "pretty_title":"Wild Life",
+        "search_use":["search"],
+        "icons":[
+            "img/icons/wildbee.png",
+		    "img/icons/wildbird.png",
+		    "img/icons/wildbutterfly.png",
+			"img/icons/wildlife.png"]
+}
+}]

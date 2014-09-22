@@ -1,0 +1,54 @@
+<div class= "wrapper">
+	<div id="homePage">
+	<div id="userImgContent">
+		<img id="favImage" ng-src= "{{favImage}}">
+		<br>
+
+	</div>
+ <!-- <script src="modules/smallCarousel/carousel.js"></script>
+  <script src="modules/smallCarousel/carouselApp.js"></script>
+	-->
+	<div id= "userTraits" >
+		<style>
+			.carousel-indicators{
+			display:none;}
+		</style>
+		<slide ng-repeat="trait in traits" active="trait.active" >
+			<div><img id="traitImage" ng-src="{{trait.image}}"></div>
+		</slide>
+	</div>
+	
+	
+	<h2>My Garden</h2>
+	<div id="scrollPlants">
+		<div id="pictures" >
+			<slide ng-repeat="gardens in gardens" active="gardens.active">
+				<span><img id="plantImages" ng-src="{{gardens.image}}"></span>
+			</slide>
+		</div>
+	</div>
+
+	<h2>More Like This</h2>
+	<div id="scrollPlants">
+		<div id="pictures">
+		  <slide ng-repeat="slide in slides" active="slide.active">
+			<span><img id="plantImages"ng-src="{{slide.image}}"></span>
+		  </slide>
+		</div>
+	</div>
+	</div>
+</div>
+	
+	
+	<!--<div class="photo-container" data-carousel data-carousel-class="photo-carousel" data-on-page-upcoming="loadPage(page, tmplCb)" data-give-carousel-to="onCarouselAvailable(carousel)">
+			  <div class="photo-grid span12">
+				<span data-ng-repeat="photo in photos">
+				  <img ng-src="{{getPhotoUrl(photo)}}">
+				</span>
+			  </div>
+			</div>
+
+		<a style="float: left;" data-ng-show="hasPrevious()" data-ng-click="previous()">&lt;&lt; Previous</a>
+		<span style="float: left;" data-ng-hide="hasPrevious()">&lt;&lt; Previous</span>
+		<a style="float: left;" data-ng-show="hasNext()" data-ng-click="next()">Next &gt;&gt;</a>
+		<span style="float: left;" data-ng-hide="hasNext()">Next &gt;&gt;</span>-->

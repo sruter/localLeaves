@@ -1,0 +1,20 @@
+<svg class="svg-row" width="400" height="300"  viewBox="0 0 300 400"
+            xmlns="http://www.w3.org/2000/svg">
+    <g ng-repeat="slide in slides">
+            <image ng-attr-x="{{imagePosition($index).left}}" ng-attr-y="{{imagePosition($index).top}}" height="90" width="90" ng-attr-transform="rotate({{imagePosition($index).rotate}},200,1400)" xlink:href="{{slides[$index].image}}"/>
+       </g>
+       <g stroke="#BC9D73" fill="#F5F0EA" fill-opacity="0.3" stroke-width="10">
+           <path d="M140,145 L130,20 Q 200,1 270,20 L260,145"/>
+<!--          <path d="M130,20 Q 200,1 270,20 L260,145 Q 200,140 140,145 z"/>-->
+<!--       This is the window viewer start in upper left, control pt for bezier, over to upper right, etc.-->
+       </g>
+        <g stroke="#BC9D73" fill="#F5F0EA" fill-opacity="0.3" stroke-width="20">
+          <path d="M125,20 Q 200,1 275,20 "/>
+<!--       This is the title bar-->
+       </g>
+       <g stroke="#E4D5C4" fill="#F5F0EA" fill-opacity="0.0" stroke-width="3">
+           <path d="M0,178 Q 200,100 400,178"/>
+<!--             This is the thin horizon line, using bezier curve -->
+     
+       </g>
+</svg>

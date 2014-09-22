@@ -1,0 +1,280 @@
+{"bloomSeason":[
+    {
+    "ID":"0",
+	"popUp":"Spring",
+    "image": "img/icons/seasonspring.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"Summer",
+    "image": "img/icons/seasonsummer.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"Fall",
+    "image": "img/icons/seasonfall.png"
+  },
+  {
+    "ID":"3",
+    "popUp":"Winter",
+    "image": "img/icons/seasonwinter.png"
+  }
+],
+ "category":[
+  {
+    "ID":"0",
+    "popUp":"Edibles",
+    "image": "img/icons/plantedible.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"Flower",
+    "image": "img/icons/plantflower.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"Other",
+    "image": "img/icons/plantother.png"
+  },
+  {
+    "ID":"3",
+    "popUp":"Shrub",
+    "image": "img/icons/plantshrub.png"
+  },
+  {
+    "ID":"4",
+    "popUp":"Tree",
+    "image": "img/icons/planttree.png"
+  }
+ ],
+"native":[
+  {
+    "ID":"0",
+    "popUp":"??",
+    "image": "img/icons/native1.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"??",
+    "image": "img/icons/native2.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"??",
+    "image": "img/icons/native3.png"
+  },
+  {
+    "ID":"3",
+    "popUp":"??",
+    "image": "img/icons/native4.png"
+  },
+  {
+    "ID":"4",
+    "popUp":"Introduced",
+    "image": "img/icons/nativenot.png"
+  }
+],
+"water":[
+  {
+    "ID":"0",
+    "popUp":"Dry",
+    "image": "img/icons/waterempty.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"Moist",
+    "image": "img/icons/waterhalf.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"Wet",
+    "image": "img/icons/waterfull.png"
+  }
+],
+"sun":[
+    {
+    "ID":"0",
+    "popUp":"Shade",
+    "image": "img/icons/sunempty.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"Part Sun",
+    "image": "img/icons/sunhalf.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"Full Sun",
+    "image": "img/icons/sunfull.png"
+  }
+],
+"overall":[
+	  {
+    "ID":"0",
+    "popUp":"1 Star",
+    "image": "img/icons/star1.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"2 Stars",
+    "image": "img/icons/star2.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"3 Stars",
+    "image": "img/icons/star3.png"
+  }
+],
+"growth":[
+  {
+	"ID":"0",
+    "popUp":"Small",
+    "image": "img/icons/grow1.png"
+  },
+  {
+	"ID":"1",
+    "popUp":"Medium",
+    "image": "img/icons/grow2.png"
+  },
+  {
+	"ID":"2",
+    "popUp":"Large",
+    "image": "img/icons/grow3.png"
+  }
+],
+"maintenance":[
+  {
+	"ID":"0",
+    "popUp":"None",
+    "image": "img/icons/maint1.png"
+  },
+  {
+	"ID":"1",
+    "popUp":"Basic",
+    "image": "img/icons/maint2.png"
+  },
+  {
+	"ID":"2",
+    "popUp":"Intensive",
+    "image": "img/icons/maint3.png"
+  }
+],
+"water":[
+  {
+	"ID":"0",
+    "popUp":"Dry",
+    "image": "img/icons/waterempty.png"
+  },
+  {
+	"ID":"1",
+    "popUp":"Moist",
+    "image": "img/icons/waterhalf.png"
+  },
+  {
+	"ID":"2",
+    "popUp":"Wet",
+    "image": "img/icons/waterfull.png"
+  }
+],
+"experience":[
+  {
+    "ID":"0",
+    "popUp":"Beginner",
+    "image": "img/icons/star1.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"Intermediate",
+    "image": "img/icons/star2.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"Master",
+    "image": "img/icons/star3.png"
+  }
+],
+"wildlife":[
+  {
+    "ID":"0",
+    "popUp":"Bees",
+    "image": "img/icons/wildbee.png"
+  },
+  {
+    "ID":"1",
+    "popUp":"Birds",
+    "image": "img/icons/wildbird.png"
+  },
+  {
+    "ID":"2",
+    "popUp":"Butterflies",
+    "image": "img/icons/wildbutterfly.png"
+  },
+  {
+    "ID":"3",
+    "popUp":"Mammals",
+    "image": "img/icons/wildlife.png"
+  }
+],
+ "organization":[
+  {
+ 	"ID":"0",
+    "popUp":"Houston Audubon",
+    "image": "img/icons/orgaudubon.png"
+  },
+  {
+	"ID":"1",
+    "popUp":"Houston Chronicle",
+    "image": "img/icons/orgchron.png"
+  },
+  {
+	"ID":"2",
+    "popUp":"Cockrell Butterfly Center",
+    "image": "img/icons/orgcockrell.png"
+  },
+  {
+	"ID":"3",
+    "popUp":"Texas Forest Service",
+    "image": "img/icons/orgforestservice.png"
+  },
+  {
+	"ID":"4",
+    "popUp":"Garden Club of Houston",
+    "image": "img/icons/orggardenclub.png"
+  },
+  {
+	"ID":"5",
+    "popUp":"Houston Arboretum and Nature Center",
+    "image": "img/icons/orghaanc.png"
+  },
+  {
+	"ID":"6",
+    "popUp":"Katy Prairie Conservancy",
+    "image": "img/icons/orgkatyprairie.png"
+  },
+  {
+	"ID":"7",
+    "popUp":"Mercer Arboretum",
+    "image": "img/icons/orgmercer.png"
+  },
+  {
+	"ID":"8",
+    "popUp":"Native Plant Society",
+    "image": "img/icons/orgnps.png"
+  },
+  {
+	"ID":"9",
+    "popUp":"Texas Parks and Wildlife",
+    "image": "img/icons/orgparkswildlife.png"
+  },
+  {
+	"ID":"10",
+    "popUp":"Texas A&M AgriLife Extension",
+    "image": "img/icons/orgtamu.png"
+  },
+  {
+	"ID":"11",
+    "popUp":"Urban Harvest",
+    "image": "img/icons/orgurbanharvest.png"
+  }
+ ] 
+}

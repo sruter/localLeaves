@@ -1,0 +1,38 @@
+<div  class="menuBar">
+	
+    <div>
+    	<a ui-sref= "Home"> <img id="myGardenIcon" ng-src= "img/mygarden.png"></a>
+	</div>
+	
+	<div>
+		<img  id="logoNavBackground" ng-src= "img/navbg.png">
+	</div>
+	<div>		
+
+		<div ng-show="state.is('Search')">
+			<a ui-sref= "SearchResults">
+				<img id="logonav" ng-src= "img/logonav.png"></a>
+
+		</div>
+		<div ng-show="state.is('SearchResults')">
+			<a ui-sref="PlantInfo">
+				<img id="logonav" ng-src="img/logonav.png"></a>
+		</div>
+		<div ng-show="state.is('PlantInfo')">
+			<a ui-sref="Home">
+				<img id="addLink" ng-src="img/add.png"></a>
+		</div>
+		<div ng-show="state.is('Home')">
+			<a ui-sref="More">
+				<img id="logonav" ng-src="img/logonav.png">
+			</a>
+		</div>
+
+	</div>
+	
+	<div>
+    	<a ui-sref= "Search"><img id="intSearch" ng-src= "img/intsearch.png"></a>
+		
+    </div>
+	
+</div>

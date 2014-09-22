@@ -1,0 +1,64 @@
+<div id="searchContainer" 
+     ng-repeat="categType in plantObjectModel.dataIcons | filter:q">
+
+    <div fan num="{{$index}}" categ="{{categType}}">
+        
+    </div>
+    <div id="searchTitle">{{plantObjectModel.dataIcons[categType].pretty_title}}</div>
+    
+
+
+    </div>
+<!--<input type="search" ng-model="q" placeholder="filter searches..." />-->
+<!--
+<div class = "searchPageTop">
+</div>
+<div id="searchContainer" ng-repeat="(categType, info) in searchIcons | limitTo: 5">
+    limitTo: 5 should show only 5 categories probably something about the nested arrays
+    <div fan num="{{$index}}" categ="{{categType}}" listImg="{{info}}">
+    </div>
+    <div id="searchTitle">{{categType}}</div>
+</div>
+
+
+
+    <div id="leftFanBlock">
+    </div>
+    <div id="rightFanBlock">
+	</div>
+-->
+
+
+<!--
+category type:  
+<div class="container-fluid">
+  <div class="row">
+        <div id="bloomSeason">
+			
+        <div class= "searchTitle"><h6>Bloom Season</h6></div>
+        
+        <div id="category">
+            <div icon = 'category'></div>
+        <div class= "searchTitle"><h6>Category</h6></div>
+        </div>
+        
+        <div id="native">
+            <div icon="native" ></div>
+        <div class= "searchTitle"><h6>Native</h6></div>
+        </div>
+        
+        <div id= "water">
+           	<div icon= "water" ></div> 
+        <div class= "searchTitle"><h6>Water</h6></div>
+        </div>
+			
+        <div id= "sun">
+         	<div icon= "sun" ></div>   
+        <div class= "searchTitle"><h6>Sunlight</h6></div>
+        </div>
+        
+    </div>
+</div>
+
+	<a href= "#/SearchResults"><img ng-src= "img/skip_forward.png"></a>
+-->

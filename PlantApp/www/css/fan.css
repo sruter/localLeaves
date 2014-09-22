@@ -1,0 +1,49 @@
+/*Fan stuff*/
+#searchContainer {
+	top: 40px;
+    position:relative;
+    display:inline;
+	height: 100%;
+    text-align:center;
+    overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+#searchTitle{
+	position: relative;
+    display:inline;
+	margin-top: -40px;
+    left:200px;
+    z-index:20;
+}
+.carouselSearch {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+.carouselWrap {
+    position:relative;
+    height:90px;
+    width:90%;
+    margin-left:-5%;
+    margin-right:5%;
+}
+.img-row-include {
+    position:relative;
+    left:5px;
+    width:90%;
+}
+.svg-row{
+    position:relative;
+    width:100%;
+    height:95%;
+}
+#moveLeft {
+    position:absolute;
+    left:0px;
+    width:30px;
+}
+#moveRight {
+    position:absolute;
+    left:200px;
+    width:30px;
